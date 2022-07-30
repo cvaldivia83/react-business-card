@@ -1,0 +1,13 @@
+.photo--profile {
+  object-fit: contain;
+  max-width: 100%;
+  width: 100vw;
+  height: 90%;
+  overflow-x: hidden;
+}
+
+/* @media only screen and (min-width: 375px) {
+  .photo--profile {
+    object-position: initial;
+  }
+} */

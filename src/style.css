@@ -1,0 +1,19 @@
+/* Google Fonts Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700;800;900&display=swap');
+
+/* Components */
+@import '../src/css/photo.css';
+@import '../src/css/content.css';
+@import '../src/css/title.css';
+@import '../src/css/button.css';
+@import '../src/css/info.css';
+@import '../src/css/footer.css';
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f4f4;
+}
+
+#root {
+  overflow: hidden;
+}
