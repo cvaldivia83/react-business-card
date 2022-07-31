@@ -18,6 +18,13 @@
   color: #918E9B;
 }
 
+@media only screen and (min-width: 760px) {
+  .footer {
+    width: 80vw;
+    margin: 0 auto;
+  }
+}
+
 @media only screen and (min-width: 900px) {
   .footer {
     width: 60vw;

@@ -6,6 +6,14 @@
   overflow-x: hidden;
 }
 
+@media only screen and (min-width: 760px) {
+  .photo--profile {
+    width: 80vw;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 @media only screen and (min-width: 900px) {
   .photo--profile {
     width: 60vw;
