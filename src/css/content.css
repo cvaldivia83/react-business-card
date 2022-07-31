@@ -1,0 +1,28 @@
+.icon-container {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  right: 15px;
+  top: 20px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid rgb(200, 200, 200);
+}
+
+.icon:active {
+  transform: translateY(2px);
+
+}
+
+@media only screen and (min-width: 900px) {
+  .icon-container {
+    width: 60vw;
+  }
+
+  .icon {
+    left: 745px;
+    right: initial;
+  }
+}

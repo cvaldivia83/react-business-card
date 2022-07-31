@@ -1,15 +1,30 @@
+.info--container {
+  padding: 4px 32px;
+}
+
 .info--title {
-  font-size: 16px;
+  font-size: 1em;
   color: #2B283A;
-  margin-top: 24px;
+  margin-top: 8px;
 }
 
 .info--paragraph {
-  font-size: 12px;
+  font-size: 0.75em;
   color: #4A4E74;
   font-weight: 400;
 }
 
-.info--container {
-  margin: 56px 0 64px 0;
+@media only screen and (min-width: 900px) {
+  .info--container {
+    width: 60vw;
+    margin: 0 auto;
+  }
+
+  .info--title {
+    font-size: 1.5em;
+  }
+
+  .info--paragraph {
+    font-size: 0.875em;
+  }
 }

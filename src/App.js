@@ -6,6 +6,9 @@ export default function App() {
   return (
     <>
       <Content />
+      <div>
+        <Footer />
+      </div>
     </>
-  )
+  );
 }

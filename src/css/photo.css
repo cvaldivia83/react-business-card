@@ -2,12 +2,14 @@
   object-fit: contain;
   max-width: 100%;
   width: 100vw;
-  height: 90%;
+  height: 70%;
   overflow-x: hidden;
 }
 
-/* @media only screen and (min-width: 375px) {
+@media only screen and (min-width: 900px) {
   .photo--profile {
-    object-position: initial;
+    width: 60vw;
+    display: block;
+    margin: 0 auto;
   }
-} */
+}

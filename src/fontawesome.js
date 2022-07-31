@@ -1,9 +1,24 @@
 // Import the library
 import { library } from "@fortawesome/fontawesome-svg-core";
 
-// Import Icons
-import { faCircleHalfStroke } from "@fortawesome/free-solid-svg-icons";
+// Brand Icons
+ import {
+   faSquareGit,
+   faSquareFacebook,
+   faSquareInstagram,
+   faSquareTwitter,
+   faLinkedinIn,
+ } from "@fortawesome/free-brands-svg-icons";
+
+// Import Solid Icons
+import { faCircleHalfStroke, faAt } from "@fortawesome/free-solid-svg-icons";
 
 library.add(
-  faCircleHalfStroke
-)
+  faCircleHalfStroke,
+  faSquareGit,
+  faSquareFacebook,
+  faSquareInstagram,
+  faSquareTwitter,
+  faLinkedinIn,
+  faAt
+);
