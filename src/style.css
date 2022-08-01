@@ -11,7 +11,7 @@
 
 /* Light Theme Colors */
 
-:root {
+body {
   --bkg-color: #f5f5f5;
   --name-color: #2B283A;
   --position-color: #F47D27;
@@ -30,7 +30,7 @@
 
 /* Dark Theme Colors */
 
-:root.dark-mode {
+body.dark-mode {
   --bkg-color: #1A1B21;
   --name-color: #FFFFFF;
   --position-color: #F3BF99;

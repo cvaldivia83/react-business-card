@@ -10,7 +10,7 @@ export default function Content() {
   return (
     <div className="content">
       <Photo />
-      <div className="icon-container" onClick={() => {document.body.classList.toggle("dark-theme");}}>
+      <div className="icon-container" onClick={() => {document.body.classList.toggle("dark-mode");}}>
         <span className="icon">
           <FontAwesomeIcon icon="fa-solid fa-circle-half-stroke" />
         </span>
