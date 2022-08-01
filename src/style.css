@@ -9,10 +9,46 @@
 @import '../src/css/info.css';
 @import '../src/css/footer.css';
 
+/* Light Theme Colors */
+
+:root {
+  --bkg-color: #f5f5f5;
+  --name-color: #2B283A;
+  --position-color: #F47D27;
+  --site-color: #4A4E74;
+  --text-color: #4A4E74;
+  --title-color: #2B283A;
+  --blue-button-color: #297FE5;
+  --blue-button-text: #FFFFFF;
+  --white-button-color: #FFFFFF;
+  --white-button-text: #1E1F26;
+  --white-button-border: #D1D5DB;
+  --bkg-footer: #D5D4D8;
+  --icon-color: #918E9B;
+  --icon-border: #918E9B;
+}
+
+/* Dark Theme Colors */
+
+:root.dark-mode {
+  --bkg-color: #1A1B21;
+  --name-color: #FFFFFF;
+  --position-color: #F3BF99;
+  --site-color: #F5F5F5;
+  --text-color: #DCDCDC;
+  --title-color: #F5F5F5;
+  --blue-button-color: #5093E2;
+  --white-button-color: #FFFFFF;
+  --bkg-footer: #161619;
+  --icon-color: #918E9B;
+}
+
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #f5f5f5;
+  background-color: var(--bkg-color);
 }
+
+
 
 #root {
   overflow: hidden;

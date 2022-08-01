@@ -2,36 +2,55 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px 0 32px 0;
+  margin: 1.25em 0 2em 0;
 }
 
 .button--btn {
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.875em;
   font-weight: 500;
   border-radius: 6px;
 }
 
 .button--btn.white {
-  border: 1px solid #D1D5DB;
-  color: #1E1F26;
-  padding: 9px 36px 9px 34px;
-  margin-right: 16px;
+  border: 1px solid var(--white-button-border);
+  background-color: var(--white-button-color);
+  color: var(--white-button-text);
+  padding: 0.5625em 2.25em 0.5625em 2.125em;
+  margin-right: 1em;
 }
 
 .button--btn.blue {
-  color: #FFF;
-  background-color: #297FE5;
-  padding: 9px 42px 9px 24px;
-  margin-left: 22px;
+  color: var(--blue-button-text);
+  background-color: var(--blue-button-color);
+  padding: 0.5625em 2.625em 0.5625em 1.5em;
+  margin-left: 1.375em
 }
 
 .fa-envelope {
-  color: #1E1F26;
-  padding: 0 6px;
+  color: var(--white-button-text);
+  padding: 0 0.375em;
 }
 
 .fa-linkedin {
-  color: #FFF;
-  padding: 0 6px;
+  color: var(--blue-button-text);
+  padding: 0 0.375em;
+}
+
+@media only screen and (max-width: 320px) {
+  .button--btn.white {
+    padding: 0.5625em 2em 0.5625em 1.5em;
+    margin-right: 0.75em;
+  }
+
+  .button--btn.blue {
+    padding: 0.5625em 1.5em 0.5625em 1em;
+    margin-left: 1em;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+  .button--btn {
+    font-size: 1.125em;
+  }
 }
