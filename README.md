@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Business Card - Create-React-App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Following Scrimba's Learn React For Free course, this is Solo Project 1 - Digital Business Card. 
 
 ## Available Scripts
 
